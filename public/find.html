@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIND - Book </title>
+    <title>Find Books</title>
+    <link rel="stylesheet" href="find.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <H1>HELLO world</H1>
+
+    <nav class="nav">
+        <div class="logo">
+            <h1>BOOKIE</h1>
+        </div>
+        <div class="nav-element">
+            <ul>
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                <a href="/find">
+                    <li>Find</li>
+                </a>
+                <a href="/upload">
+                    <li>Upload</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="find-container">
+        <h2>Search for Books</h2>
+        <input type="text" id="searchInput" placeholder="Enter book name...">
+        <button id="searchBtn">Search</button>
+        
+        <h2>Available Books</h2>
+        <div id="bookList"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BookFinder. All rights reserved.</p>
+        <p>Designed & Developed by Ahmed</p>
+    </footer>
+
+    <script src="find.js"></script>
 </body>
 </html>

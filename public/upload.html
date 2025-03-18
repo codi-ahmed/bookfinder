@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPLOAD - BOOK</title>
+    <title>Upload Book</title>
+    <link rel="stylesheet" href="upload.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>BOOK UPLOAD</h1>
+
+    <nav class="nav">
+        <div class="logo">
+            <h1>BOOKIE</h1>
+        </div>
+        <div class="nav-element">
+            <ul>
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                <a href="/find">
+                    <li>Find</li>
+                </a>
+                <a href="/upload">
+                    <li>Upload</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="upload-container">
+        <h2>Upload Your Book (PDF)</h2>
+
+        <input type="text" id="uploaderName" placeholder="Your Name">
+        <input type="email" id="uploaderEmail" placeholder="Your Email">
+        <input type="file" id="pdfInput" accept="application/pdf">
+        
+        <p id="fileName">No file selected</p>
+        <button id="uploadBtn">Upload</button>
+        <p id="message"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BookFinder. All rights reserved.</p>
+        <p>Designed & Developed by Ahmed</p>
+    </footer>
+
+    <script src="upload.js"></script>
 </body>
 </html>

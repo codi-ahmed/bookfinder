@@ -1,0 +1,97 @@
+body {
+    background-color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+nav h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.nav-element ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-element {
+    justify-content: center;
+    margin-right: 50px;
+}
+
+li {
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.find-container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+button {
+    background: radial-gradient(circle, blue, #4792d4);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: radial-gradient(circle, darkblue, #2a65a0);
+}
+
+#bookList {
+    margin-top: 20px;
+}
+
+.book-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-item a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 50px;
+}
