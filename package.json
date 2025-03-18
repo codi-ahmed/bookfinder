@@ -1,0 +1,23 @@
+{
+  "name": "bookfinder",
+  "version": "1.0.0",
+  "description": "This is a website in which we can download the book pdf and also able to upload the pdf of multiple book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codi-ahmed/bookfinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codi-ahmed/bookfinder/issues"
+  },
+  "homepage": "https://github.com/codi-ahmed/bookfinder#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
